@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TataCaraSholat." parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/emerald_600</item>
+    </style>
+
+    <style name="Theme.TatacaraSholat" parent="Base.Theme.TataCaraSholat." />
+
+    <!-- Tambahkan Style ini untuk Gambar Rounded -->
+    <style name="RoundedImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+</resources>
